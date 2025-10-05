@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://monalisa-ottawa.myshopify.com/collections/mens-clothing/products/aghal";
-    const blackPageURL = "https://ifrxjwhbvb.myfunnelish.com/chelsea-boden-boots-1737294312209574-1737906344046855";
+    const whitePageURL = "https://www.newbie.com/en-us/baby-clothes/baby-boys-clothes/525402";
+    const blackPageURL = "https://uplevelrewarded.com/aff_c?offer_id=1232&aff_id=45076";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,3 +25,4 @@ export default function handler(req, res) {
   
     res.end();
   }
+

